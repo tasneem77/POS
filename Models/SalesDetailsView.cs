@@ -1,0 +1,125 @@
+﻿using System;
+using System.Collections.Generic;
+
+#nullable disable
+
+namespace POS_API.Models
+{
+    public partial class SalesDetailsView
+    {
+        public string ComCode { get; set; }
+        public string CompanyNameL1 { get; set; }
+        public string CompanyNameL2 { get; set; }
+        public string StoCode { get; set; }
+        public string StoreNameL1 { get; set; }
+        public string StoreNameL2 { get; set; }
+        public string SalesTrnsId { get; set; }
+        public string TransType1 { get; set; }
+        public string TransType1Desc { get; set; }
+        public string TransType2 { get; set; }
+        public string TransType2Desc { get; set; }
+        public string SalesType { get; set; }
+        public string SalesTypeDesc { get; set; }
+        public DateTime? TrnsDate { get; set; }
+        public string Year { get; set; }
+        public int? TableId { get; set; }
+        public int? CustomerId { get; set; }
+        public string CustomerNameL1 { get; set; }
+        public string CustomerNameL2 { get; set; }
+        public string CustomerAddress { get; set; }
+        public string CreditCardNo { get; set; }
+        public DateTime? CreditCardExpiry { get; set; }
+        public int? DeliveryAddressId { get; set; }
+        public string PhoneNo { get; set; }
+        public int? HeaderGuestNo { get; set; }
+        public int? NoOfGuests { get; set; }
+        public decimal? OtherCost { get; set; }
+        public decimal? TotalAmount { get; set; }
+        public decimal? DiscountPercent { get; set; }
+        public decimal? TotalDiscount { get; set; }
+        public decimal? PaidAmount { get; set; }
+        public decimal? TotalTaxs { get; set; }
+        public int? TotalItems { get; set; }
+        public string TerminalId { get; set; }
+        public string TerminalNameL1 { get; set; }
+        public string TerminalNameL2 { get; set; }
+        public decimal? NetAmount { get; set; }
+        public decimal? GrossAmount { get; set; }
+        public string PostFlag { get; set; }
+        public string ReceiptStatusDesc { get; set; }
+        public DateTime? PostDate { get; set; }
+        public int? ShiftId { get; set; }
+        public DateTime? StartDate { get; set; }
+        public DateTime? EndDate { get; set; }
+        public string UserCode { get; set; }
+        public string DayCode { get; set; }
+        public DateTime? StartTime { get; set; }
+        public string StartUserCode { get; set; }
+        public DateTime? EndTime { get; set; }
+        public string EndUserCode { get; set; }
+        public DateTime? InsertDate { get; set; }
+        public string InsertUid { get; set; }
+        public string UpdateUid { get; set; }
+        public DateTime? UpdateDate { get; set; }
+        public string TransUserNo { get; set; }
+        public int IssItmSerial { get; set; }
+        public int? ItmSerial { get; set; }
+        public string ItmCode { get; set; }
+        public string ItmCode1 { get; set; }
+        public string ItemNameL1 { get; set; }
+        public string DescriptionInSales { get; set; }
+        public string ItemNameL2 { get; set; }
+        public int? ModelId { get; set; }
+        public string ModelCode { get; set; }
+        public string ModelDescription { get; set; }
+        public string XAttributeValue { get; set; }
+        public string YAttributeValue { get; set; }
+        public int? CategoryId { get; set; }
+        public string CategoryName { get; set; }
+        public string GroupCode { get; set; }
+        public string GroupName { get; set; }
+        public int? KitchenId { get; set; }
+        public int? PreferedVendor { get; set; }
+        public string VendorName { get; set; }
+        public string UnitId { get; set; }
+        public string UnitNameL1 { get; set; }
+        public string UnitNameL2 { get; set; }
+        public decimal? TrnsQty { get; set; }
+        public decimal? BeforeDiscountPrice { get; set; }
+        public decimal? DiscountValueForHeader { get; set; }
+        public decimal? DiscountValueForItem { get; set; }
+        public decimal? UnitSalesPrice { get; set; }
+        public decimal? AddOnsUnitPrice { get; set; }
+        public int? AddOnsLineSerial { get; set; }
+        public decimal? ItemTotalValue { get; set; }
+        public decimal? AverageCost { get; set; }
+        public decimal? SalestaxValue { get; set; }
+        public int? ItemsGuestNo { get; set; }
+        public int? ItemTableId { get; set; }
+        public string ItemInsertUid { get; set; }
+        public DateTime? ItemInsertDate { get; set; }
+        public string ItemUpdateUid { get; set; }
+        public DateTime? ItemUpdateDate { get; set; }
+        public int? Ordered { get; set; }
+        public string OrderDesc { get; set; }
+        public int? SaleMid { get; set; }
+        public string SalesManNameL1 { get; set; }
+        public string SalesManNameL2 { get; set; }
+        public int? ItemSalesManId { get; set; }
+        public string ItemSalesManNameL1 { get; set; }
+        public string ItemSalesManNameL2 { get; set; }
+        public string CouponNo { get; set; }
+        public int? MarkComId { get; set; }
+        public string MarketingCompanyName { get; set; }
+        public decimal CashAmount { get; set; }
+        public decimal VisaAmount { get; set; }
+        public decimal CouponAmount { get; set; }
+        public decimal? CreditCustomerAmount { get; set; }
+        public decimal? PointsAmount { get; set; }
+        public string Remarks { get; set; }
+        public string OrigSalesTrnsId { get; set; }
+        public decimal? ServiceChargeAmount { get; set; }
+        public decimal? MinimumChargeAmount { get; set; }
+        public bool? ComplementaryFlag { get; set; }
+    }
+}
